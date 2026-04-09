@@ -176,13 +176,13 @@ body {
 }
 
 .about .container {
-    max-width: 920px;
+    max-width: 1120px;
     margin: 0 auto;
 }
 
 .about h2 {
     font-size: 2.9rem;
-    margin-bottom: 1.75rem;
+    margin-bottom: 2rem;
     text-align: center;
     color: #2d3f7a;
     position: relative;
@@ -198,24 +198,100 @@ body {
     margin: 20px auto 0;
 }
 
+.about-content {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .about-box {
     border: 1px solid rgba(102, 126, 234, 0.24);
     border-radius: 28px;
     padding: 40px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(236, 244, 255, 0.9) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(236, 244, 255, 0.95) 100%);
     box-shadow: 0 28px 65px rgba(102, 126, 234, 0.12);
 }
 
-.about p {
+.about-list {
+    margin: 1.2rem 0;
+    padding-left: 1.35rem;
+    color: #47526e;
+}
+
+.about-list li {
+    margin-bottom: 0.85rem;
+    line-height: 1.8;
+    position: relative;
+}
+
+.about-list li:before {
+    content: "•";
+    position: absolute;
+    left: -1.35rem;
+    color: #667eea;
+}
+
+.about p,
+.about-list li {
     font-size: 1.08rem;
     line-height: 1.85;
-    margin-bottom: 1.3rem;
     color: #47526e;
     text-align: left;
 }
 
 .about p:last-child {
     margin-bottom: 0;
+}
+
+.about-stats {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.about-stat-card {
+    background: white;
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 20px 50px rgba(102, 126, 234, 0.1);
+    border: 1px solid rgba(102, 126, 234, 0.16);
+    text-align: center;
+}
+
+.about-stat-card span {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #14a76c;
+    margin-bottom: 0.7rem;
+}
+
+.about-stat-card p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4a5568;
+}
+
+@media (max-width: 992px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 680px) {
+    .about-box {
+        padding: 30px;
+    }
+
+    .about-stat-card {
+        padding: 1.5rem;
+    }
 }
 
 /* ===================== Projects Section ===================== */
