@@ -24,7 +24,7 @@ body {
 
 /* ===================== Navigation Bar ===================== */
 .navbar {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #012835 0%, #a24b4b 100%);
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -70,7 +70,7 @@ body {
 
 /* ===================== Hero Section ===================== */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #020b34 0%, #300202 100%);
     color: white;
     padding: 100px 0;
 }
@@ -133,7 +133,7 @@ body {
 .cta-button {
     display: inline-block;
     background-color: white;
-    color: #667eea;
+    color: #0d2382;
     padding: 12px 30px;
     border-radius: 5px;
     text-decoration: none;
@@ -172,7 +172,7 @@ body {
 /* ===================== About Section ===================== */
 .about {
     padding: 90px 0;
-    background: linear-gradient(135deg, #eef3ff 0%, #f8fbff 55%, #ffffff 100%);
+    background: linear-gradient(135deg, #460404 0%, #2d0314 55%, #3d1818 100%);
 }
 
 .about .container {
@@ -184,7 +184,7 @@ body {
     font-size: 2.9rem;
     margin-bottom: 2rem;
     text-align: center;
-    color: #2d3f7a;
+    color: #f7f7fa;
     position: relative;
 }
 
@@ -193,7 +193,7 @@ body {
     display: block;
     width: 100px;
     height: 5px;
-    background: linear-gradient(90deg, #667eea, #8c6bff);
+    background: linear-gradient(90deg, #343742, #090125);
     border-radius: 999px;
     margin: 20px auto 0;
 }
@@ -211,17 +211,17 @@ body {
 }
 
 .about-box {
-    border: 1px solid rgba(102, 126, 234, 0.24);
+    border: 1px solid rgba(249, 250, 252, 0.24);
     border-radius: 28px;
     padding: 40px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(236, 244, 255, 0.95) 100%);
+    background: linear-gradient(180deg, rgba(75, 24, 24, 0.95) 0%, rgba(3, 27, 59, 0.95) 100%);
     box-shadow: 0 28px 65px rgba(102, 126, 234, 0.12);
 }
 
 .about-list {
     margin: 1.2rem 0;
     padding-left: 1.35rem;
-    color: #47526e;
+    color: #0b2d4f;
 }
 
 .about-list li {
@@ -234,14 +234,14 @@ body {
     content: "•";
     position: absolute;
     left: -1.35rem;
-    color: #667eea;
+    color: #1a265d;
 }
 
 .about p,
 .about-list li {
     font-size: 1.08rem;
     line-height: 1.85;
-    color: #47526e;
+    color: #ffffff;
     text-align: left;
 }
 
@@ -255,7 +255,7 @@ body {
 }
 
 .about-stat-card {
-    background: white;
+    background: rgb(72, 25, 41);
     border-radius: 24px;
     padding: 2rem;
     box-shadow: 0 20px 50px rgba(102, 126, 234, 0.1);
@@ -267,7 +267,7 @@ body {
     display: block;
     font-size: 3rem;
     font-weight: 700;
-    color: #14a76c;
+    color: #02ab26;
     margin-bottom: 0.7rem;
 }
 
@@ -275,7 +275,7 @@ body {
     margin: 0;
     font-size: 1rem;
     font-weight: 600;
-    color: #4a5568;
+    color: #f7f8f9;
 }
 
 @media (max-width: 992px) {
@@ -297,14 +297,14 @@ body {
 /* ===================== Projects Section ===================== */
 .projects {
     padding: 80px 0;
-    background-color: #f8f9fa;
+    background-color: #290505;
 }
 
 .projects h2 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
     text-align: center;
-    color: #333;
+    color: #fffdfd;
 }
 
 .projects-grid {
@@ -314,11 +314,11 @@ body {
 }
 
 .project-card {
-    background: linear-gradient(180deg, #ffffff 0%, #f6f8ff 100%);
-    border: 1px solid rgba(102, 126, 234, 0.18);
+    background: linear-gradient(180deg, #3b0202 0%, #03103d 100%);
+    border: 1px solid rgba(16, 40, 146, 0.18);
     border-radius: 24px;
     padding: 2.2rem;
-    box-shadow: 0 18px 45px rgba(102, 126, 234, 0.08);
+    box-shadow: 0 18px 45px rgba(13, 27, 90, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -332,13 +332,13 @@ body {
     width: 90px;
     height: 6px;
     border-radius: 0 0 12px 0;
-    background: linear-gradient(90deg, #667eea, #a678ff);
+    background: linear-gradient(90deg, #3e1222, #18184b);
 }
 
 .project-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 24px 55px rgba(102, 126, 234, 0.14);
-    border-color: rgba(102, 126, 234, 0.28);
+    border-color: rgba(230, 233, 243, 0.28);
 }
 
 .project-header {
@@ -348,7 +348,7 @@ body {
 }
 
 .project-card h3 {
-    color: #1f2a44;
+    color: #f2f2f7;
     font-size: 1.6rem;
     margin-bottom: 0.75rem;
     position: relative;
@@ -362,11 +362,11 @@ body {
     width: 50px;
     height: 4px;
     border-radius: 999px;
-    background: #667eea;
+    background: #07175e;
 }
 
 .project-card p {
-    color: #4b5563;
+    color: #f6f7f9;
     font-size: 1rem;
     line-height: 1.75;
     margin-bottom: 1.5rem;
@@ -379,8 +379,8 @@ body {
 }
 
 .tag {
-    background-color: #eef3ff;
-    color: #3c4db4;
+    background-color: #f7f6f6;
+    color: #05134c;
     padding: 0.55rem 0.95rem;
     border-radius: 999px;
     font-size: 0.88rem;
@@ -395,27 +395,27 @@ body {
 }
 
 .project-card:nth-child(odd) {
-    background: linear-gradient(180deg, #ffffff 0%, #eef4ff 100%);
+    background: linear-gradient(180deg, #460404 0%, #070127 100%);
 }
 
 .project-card:nth-child(even) {
-    background: linear-gradient(180deg, #ffffff 0%, #fff7f2 100%);
+    background: linear-gradient(180deg, #460404 0%, #070127 100%);
 }
 
 .project-card:nth-child(3n) {
-    background: linear-gradient(180deg, #ffffff 0%, #f0fff7 100%);
+    background: linear-gradient(180deg, #460303 0%, #070127 100%);
 }
 /* ===================== Skills Section ===================== */
 .skills {
     padding: 80px 0;
-    background: linear-gradient(180deg, #f3f6ff 0%, #ffffff 100%);
+    background: linear-gradient(180deg, #010820 0%, #350101 100%);
 }
 
 .skills h2 {
     font-size: 2.6rem;
     margin-bottom: 2.5rem;
     text-align: center;
-    color: #2c3e50;
+    color: hwb(0 97% 2%);
     position: relative;
 }
 
@@ -424,7 +424,7 @@ body {
     display: block;
     width: 90px;
     height: 4px;
-    background: linear-gradient(90deg, #667eea, #8c6bff);
+    background: linear-gradient(90deg, #9093a0, #3d2f6b);
     border-radius: 999px;
     margin: 18px auto 0;
 }
@@ -436,10 +436,10 @@ body {
 }
 
 .skill-category {
-    background: linear-gradient(180deg, #ffffff 0%, #eef4ff 100%);
+    background: linear-gradient(180deg, #410d0d 0%, #05163a 100%);
     padding: 2rem;
     border-radius: 24px;
-    border: 1px solid rgba(102, 126, 234, 0.18);
+    border: 1px solid rgba(156, 160, 179, 0.18);
     box-shadow: 0 20px 45px rgba(102, 126, 234, 0.08);
     position: relative;
     overflow: hidden;
@@ -460,11 +460,11 @@ body {
     width: 70px;
     height: 6px;
     border-radius: 0 0 12px 0;
-    background: linear-gradient(90deg, #667eea, #8c6bff);
+    background: linear-gradient(90deg, #363a4e, #221450);
 }
 
 .skill-category h3 {
-    color: #1f2a44;
+    color: #f2f3f5;
     font-size: 1.35rem;
     margin-bottom: 1.2rem;
 }
@@ -478,7 +478,7 @@ body {
 .skill-category li {
     background: rgba(102, 126, 234, 0.08);
     padding: 0.9rem 1rem;
-    color: #333;
+    color: #f8f7f7;
     border-radius: 16px;
     margin-bottom: 0.85rem;
     position: relative;
@@ -494,7 +494,7 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #667eea;
+    background: #e2e2e5;
 }
 
 .skill-category li:last-child {
@@ -504,7 +504,7 @@ body {
 /* ===================== Contact Section ===================== */
 .contact {
     padding: 80px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #02092d 0%, #2e0303 100%);
     color: white;
     text-align: center;
 }
@@ -529,7 +529,7 @@ body {
 
 .contact-link {
     background-color: white;
-    color: #667eea;
+    color: #040c2d;
     padding: 12px 25px;
     border-radius: 5px;
     text-decoration: none;
@@ -551,7 +551,7 @@ body {
 
 /* ===================== Footer ===================== */
 .footer {
-    background-color: #2c3e50;
+    background-color: #320303;
     color: white;
     text-align: center;
     padding: 2rem 0;
@@ -562,7 +562,7 @@ body {
 }
 
 .footer-link {
-    color: #25d366;
+    color: #0acc51;
     text-decoration: none;
     font-weight: 600;
 }
